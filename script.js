@@ -4,7 +4,7 @@
       const resultCount = document.getElementById("resultCount");
       const imageSize = document.getElementById("imageSize");
       const photoGrid = document.getElementById("photoGrid");
-      
+      let errorContainer = "";
       searchButton.addEventListener("click", async function (event) {
           event.preventDefault();
           const searchTerm = searchInput.value.trim();
