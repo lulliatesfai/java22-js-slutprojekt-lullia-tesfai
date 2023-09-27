@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class='sökVal'>
+      Search for any image <br> 
+        <input type="text" id="searchInput">
+   <div class="antalBilder">
+      Select number of images <br>
+        <input type="text" id="resultCount"> 
+    </div>
+
+    <div class="storlekPaBild">
+      Select image size <br>
+        <select id="imageSize">
+            <option value="s">Small</option>
+            <option value="z">Medium</option>
+            <option value="b">Large</option>
+        </select>    
+        <button class="searchButton" id="searchButton" >Search</button>
+</div>
+
+    <br>
+
+     <div id="errorContainer" style="color: red;"></div>
+
+    <div id="photoGrid" style="color:red" ></div>
+    </form> 
+</body>
+</html>
